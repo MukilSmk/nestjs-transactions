@@ -6,7 +6,7 @@ import { TransactionRepository } from "./transaction.repository";
 export class TransactionsService {
     constructor(private readonly transactionsRepository: TransactionRepository) {}
     async getTransactions(): Promise<Transaction[]> {
-        return this.transactionsRepository.find({});
+        return this.transactionsRepository.find({})
     }
 
 

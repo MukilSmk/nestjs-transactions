@@ -13,6 +13,6 @@ export class TransactionRepository{
     }
 
     async find(userFilterQuery:FilterQuery<Transaction>): Promise<Transaction[]>{
-        return this.transactionModel.find(userFilterQuery)
+        return this.transactionModel.find(userFilterQuery).exec()
     }
 }
