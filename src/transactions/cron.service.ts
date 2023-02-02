@@ -32,7 +32,7 @@ export class CronService {
                 secure: false,
                 auth: {
                     user: 'mukilselvam27@outlook.com',
-                    pass: 'Mukil123@',
+                    pass: '',
                 },
             });
 
